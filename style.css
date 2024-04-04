@@ -71,9 +71,10 @@ main{
     height: 24px;
 }
 
-.questions div{
-    margin-bottom: 24px;
+.questions .question_answer_container{
+    padding: 16px 0;
 }
+
 .question_4{
     margin-bottom: none;
 }
@@ -85,14 +86,20 @@ main{
     line-height: 1.3rem;
     word-spacing: 0.2rem;
     font-size: 0.9rem;
+    display: none;
+}
+
+.answer_active{
+    display: block;
 }
 
 hr{
     border: 1px solid var(--Light--pink);
-    margin: 20px 0;
+    /* margin: 20px 0; */
 }
 
 /* .footer{
     position: fixed;
     bottom: 30px;
 } */
+

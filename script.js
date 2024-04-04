@@ -1,22 +1,18 @@
-const allIcons = document.querySelectorAll('.question_tab_icon');
+const allQuestions = document.querySelectorAll('.question_answer_container');
 
-allIcons.forEach((icon) => {
-    icon.addEventListener('click', (event) => {
-        const img = event.target;
-        const answer = event.currentTarget.parentElement.parentElement
+allQuestions.forEach((question) => {
+    question.addEventListener('click', (event) => {
+        const icon = question.querySelector('.answer')
+        icon.classList.toggle('answer_active')
+        
+        // if(answer.hidden === true){
+        //     img.src = './assets/images/icon-plus.svg';
 
-        if(answer.hidden === true){
-            img.src = './assets/images/icon-plus.svg';
-            answer.hidden = true;
+        // } else if(answer.hidden === false){
+        //     img.src = './assets/images/icon-minus.svg';
+        // }
 
-        } else if(answer.hidden === false){
-            img.src = './assets/images/icon-minus.svg';
-            answer.hidden = false;
-        }
-
-        const container = event.currentTarget.parentElement.parentElement;
-        container.querySelector('.answer').hidden = false;
+        // const container = event.currentTarget.parentElement.parentElement;
+        // container.querySelector('.answer').hidden = false;
     })
 })
-
-
