@@ -20,6 +20,7 @@
 body{
     height: 100%;
     min-height: 100vh;
+    background-color: var(--Light--pink);
 }
 
 .wrapper::before{
@@ -27,10 +28,9 @@ body{
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 230px;
+    height: 280px;
     background-image: url(./assets/images/background-pattern-desktop.svg);
     background-size: cover;
-    background-color: var(--Light--pink);
     z-index: -1;
 }
 
@@ -47,7 +47,7 @@ body{
 main{
     background-color: #FFF;
     max-width: 327px;
-    padding: 24px;
+    padding: 34px;
     margin: 150px 24px 24px;
     border-radius: 8px;
     box-shadow: 0 32px 36px rgba(80, 0, 118, 0.1)
@@ -65,7 +65,11 @@ main{
 }
 
 .titile_icon{
-    height: 24px;
+    height: 37px;
+}
+
+.title{
+    font-size: 3rem;
 }
 
 /* QUESTIONS */
@@ -84,7 +88,7 @@ main{
 }
 
 .question_tab_icon{
-    height: 24px;
+    height: 30px;
 }
 
 .answer {
@@ -108,7 +112,7 @@ main{
 
 hr{
     border: 1px solid var(--Light--pink);
-    margin: 16px 0;
+    margin: 20px 0;
 }
 
 .footer{
@@ -120,7 +124,7 @@ hr{
 @media only screen and (min-width: 425px) {
 
     main{
-        max-width: 600px;
+        max-width: 530px;
     }
 
 }
