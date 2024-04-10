@@ -48,7 +48,7 @@ main{
     background-color: #FFF;
     max-width: 327px;
     padding: 34px;
-    margin: 150px 24px 24px;
+    margin: 140px 24px 24px;
     border-radius: 8px;
     box-shadow: 0 32px 36px rgba(80, 0, 118, 0.1)
 }
@@ -124,7 +124,7 @@ hr{
 @media only screen and (min-width: 425px) {
 
     main{
-        max-width: 530px;
+        max-width: 600px;
     }
 
 }
