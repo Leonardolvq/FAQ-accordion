@@ -48,7 +48,7 @@ main{
     background-color: #FFF;
     max-width: 327px;
     padding: 34px;
-    margin: 140px 24px 24px;
+    margin: 160px 24px 24px;
     border-radius: 8px;
     box-shadow: 0 32px 36px rgba(80, 0, 118, 0.1)
 }
@@ -69,7 +69,7 @@ main{
 }
 
 .title{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 /* QUESTIONS */
@@ -112,7 +112,7 @@ main{
 
 hr{
     border: 1px solid var(--Light--pink);
-    margin: 20px 0;
+    margin: 24px 0;
 }
 
 .footer{
